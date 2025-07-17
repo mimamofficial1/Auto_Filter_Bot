@@ -30,7 +30,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/55y5et.jpg
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split() 
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6139759254').split()] 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002670141750').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002671493516 -1002670141750').split()]
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002338765286'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002338765286'))  
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002275478487'))  
@@ -59,9 +59,9 @@ AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002745555397'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002745555397'))
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002338765286'))
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002338765286'))
-VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/8tqvho.jpg")
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002399750144'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002399750144'))
+VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/83oivt.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/MRN_Tutorial/1805")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/MRN_Tutorial/1805")
