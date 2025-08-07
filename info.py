@@ -63,18 +63,18 @@ LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002399750144'))
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002399750144'))
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://files.catbox.moe/83oivt.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/MRN_Tutorial/1814")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/MRN_Tutorial/1814")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/MRN_Tutorial/1814")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/MRN_Tutorial/1805")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/MRN_Tutorial/1805")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/MRN_Tutorial/1805")
 
-SHORTENER_API = environ.get("SHORTENER_API", "1b8e94e97189da28b35fcab06c0850bd92569751")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "arolinks.com")
+SHORTENER_API = environ.get("SHORTENER_API", "f2566f9573335044e60a2d14d537931e0a9ecd8d")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "papajiurl.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "1b8e94e97189da28b35fcab06c0850bd92569751")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "arolinks.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "f2566f9573335044e60a2d14d537931e0a9ecd8d")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "papajiurl.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "1b8e94e97189da28b35fcab06c0850bd92569751")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "arolinks.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "f2566f9573335044e60a2d14d537931e0a9ecd8d")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "papajiurl.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "86400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "172800"))
