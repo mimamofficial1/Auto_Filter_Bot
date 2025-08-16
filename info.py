@@ -50,10 +50,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'SilentXBotz_files')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movies_Tv_Serial_Request')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ALL_TV_SERIAL_BACKUP')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+T5B4zp8-Wjg5MTU9')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Mrn_Officialx')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/mimam_officialx')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/MRN_RIPPER')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/Mrn_Officialx')
 
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002745555397'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002745555397'))
